@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "kPXbZq2F43h01NquajOYpLQoqryNOJGhMqkKqvylqWs=",
+  "Source": "DrugKitAPI.API",
+  "BasePath": "_content/DrugKitAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DrugKitAPI.API\\wwwroot",
+      "Source": "DrugKitAPI.API",
+      "ContentRoot": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\",
+      "BasePath": "_content/DrugKitAPI.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\HTML\\ResetPassword.html",
+      "SourceId": "DrugKitAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\",
+      "BasePath": "_content/DrugKitAPI.API",
+      "RelativePath": "HTML/ResetPassword.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HTML\\ResetPassword.html"
+    },
+    {
+      "Identity": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\HTML\\UserVerificationCode.html",
+      "SourceId": "DrugKitAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\",
+      "BasePath": "_content/DrugKitAPI.API",
+      "RelativePath": "HTML/UserVerificationCode.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HTML\\UserVerificationCode.html"
+    }
+  ]
+}

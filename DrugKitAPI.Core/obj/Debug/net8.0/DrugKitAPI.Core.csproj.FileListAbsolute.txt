@@ -1,0 +1,12 @@
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\bin\Debug\net8.0\DrugKitAPI.Core.deps.json
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\bin\Debug\net8.0\DrugKitAPI.Core.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\bin\Debug\net8.0\DrugKitAPI.Core.pdb
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\obj\Debug\net8.0\DrugKitAPI.Core.csproj.AssemblyReference.cache
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\obj\Debug\net8.0\DrugKitAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\obj\Debug\net8.0\DrugKitAPI.Core.AssemblyInfoInputs.cache
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\obj\Debug\net8.0\DrugKitAPI.Core.AssemblyInfo.cs
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\obj\Debug\net8.0\DrugKitAPI.Core.csproj.CoreCompileInputs.cache
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\obj\Debug\net8.0\DrugKitAPI.Core.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\obj\Debug\net8.0\refint\DrugKitAPI.Core.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\obj\Debug\net8.0\DrugKitAPI.Core.pdb
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.Core\obj\Debug\net8.0\ref\DrugKitAPI.Core.dll

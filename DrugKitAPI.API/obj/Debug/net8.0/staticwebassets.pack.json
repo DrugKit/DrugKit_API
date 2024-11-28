@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\HTML\\ResetPassword.html",
+      "PackagePath": "staticwebassets\\HTML\\ResetPassword.html"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\HTML\\UserVerificationCode.html",
+      "PackagePath": "staticwebassets\\HTML\\UserVerificationCode.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DrugKitAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DrugKitAPI.API.props",
+      "PackagePath": "build\\DrugKitAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DrugKitAPI.API.props",
+      "PackagePath": "buildMultiTargeting\\DrugKitAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DrugKitAPI.API.props",
+      "PackagePath": "buildTransitive\\DrugKitAPI.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
