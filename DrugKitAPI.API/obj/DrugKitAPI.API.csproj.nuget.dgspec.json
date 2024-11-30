@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\DrugKitAPI.API.csproj": {}
+    "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.API\\DrugKitAPI.API.csproj": {}
   },
   "projects": {
-    "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\DrugKitAPI.API.csproj": {
+    "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.API\\DrugKitAPI.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\DrugKitAPI.API.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.API\\DrugKitAPI.API.csproj",
         "projectName": "DrugKitAPI.API",
-        "projectPath": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\DrugKitAPI.API.csproj",
-        "packagesPath": "C:\\Users\\sheri\\.nuget\\packages\\",
-        "outputPath": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.API\\DrugKitAPI.API.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sheri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,17 +22,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj": {
-                "projectPath": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj"
+              "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj"
               },
-              "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.EF\\DrugKitAPI.EF.csproj": {
-                "projectPath": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.EF\\DrugKitAPI.EF.csproj"
+              "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.EF\\DrugKitAPI.EF.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.EF\\DrugKitAPI.EF.csproj"
               }
             }
           }
@@ -41,6 +42,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -99,21 +105,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj": {
+    "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj",
         "projectName": "DrugKitAPI.Core",
-        "projectPath": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj",
-        "packagesPath": "C:\\Users\\sheri\\.nuget\\packages\\",
-        "outputPath": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.Core\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sheri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,6 +127,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -133,6 +140,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -192,21 +204,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.EF\\DrugKitAPI.EF.csproj": {
+    "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.EF\\DrugKitAPI.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.EF\\DrugKitAPI.EF.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.EF\\DrugKitAPI.EF.csproj",
         "projectName": "DrugKitAPI.EF",
-        "projectPath": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.EF\\DrugKitAPI.EF.csproj",
-        "packagesPath": "C:\\Users\\sheri\\.nuget\\packages\\",
-        "outputPath": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.EF\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.EF\\DrugKitAPI.EF.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sheri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -214,14 +226,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj": {
-                "projectPath": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj"
+              "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Downloads\\Documents\\senior yearrr\\drug kit\\DrugKit_API-main\\DrugKitAPI.Core\\DrugKitAPI.Core.csproj"
               }
             }
           }
@@ -230,6 +243,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -277,7 +295,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
