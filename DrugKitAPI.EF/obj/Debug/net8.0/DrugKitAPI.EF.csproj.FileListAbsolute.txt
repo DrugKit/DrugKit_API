@@ -15,3 +15,4 @@ D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\refint\DrugKitAP
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.pdb
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.genruntimeconfig.cache
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\ref\DrugKitAPI.EF.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.sourcelink.json
