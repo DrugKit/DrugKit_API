@@ -145,7 +145,7 @@ namespace DrugKitAPI.EF.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("AdminActionDate")
+                    b.Property<DateTime?>("AdminActionDate")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("Date")
@@ -169,7 +169,7 @@ namespace DrugKitAPI.EF.Migrations
                     b.Property<int>("MobileUserId")
                         .HasColumnType("int");
 
-                    b.Property<int>("SystemAdminId")
+                    b.Property<int?>("SystemAdminId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -576,9 +576,7 @@ namespace DrugKitAPI.EF.Migrations
 
                     b.HasOne("DrugKitAPI.Core.Models.SystemAdmin", "SystemAdmin")
                         .WithMany("Donations")
-                        .HasForeignKey("SystemAdminId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SystemAdminId");
 
                     b.Navigation("MobileUser");
 
