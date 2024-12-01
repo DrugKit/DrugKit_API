@@ -46,6 +46,7 @@ namespace DrugKitAPI.API
             builder.Services.Configure<AppSetteings>(builder.Configuration.GetSection("AppSetteings"));
             builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
             builder.Services.AddTransient<IMailingService, MailingService>();
+            builder.Services.Configure<OpenAISettings>(builder.Configuration.GetSection("OpenAISettings"));
             builder.Services.AddHttpClient();
             builder.Services.AddScoped<IOpenAIService, OpenAIService>();
 

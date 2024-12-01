@@ -18,12 +18,10 @@ namespace DrugKitAPI.Core.Models
         public string IdentityPath { get; set; }
         public List<DonationImg> DonationImgs { get; set; }
         public List<UserRequestedDonation> UserRequestedDonations { get; set; }
-        [Required]
-        public int SystemAdminId { get; set; }
+        public int? SystemAdminId { get; set; }
         public SystemAdmin SystemAdmin { get; set; }
+        public DateTime? AdminActionDate { get; set; }
         [Required]
-        public DateTime AdminActionDate { get; set; }
-        [Required]
-        public bool IsConfirmed { get; set; }
+        public bool IsConfirmed { get; set; }=false;
     }
 }

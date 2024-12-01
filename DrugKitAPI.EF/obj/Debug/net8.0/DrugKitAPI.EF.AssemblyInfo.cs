@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrugKitAPI.EF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+614e31198cd272a4b6fd0ab3312d591c4b33e1a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18417594216299ae1916f2feced6a53faceda1d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrugKitAPI.EF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrugKitAPI.EF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

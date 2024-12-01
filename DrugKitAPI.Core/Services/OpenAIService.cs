@@ -1,18 +1,21 @@
 ﻿using DrugKitAPI.Core.Interfaces;
 using System.Text.Json;
 using System.Text;
+using DrugKitAPI.Core.Helpers;
+using Microsoft.Extensions.Options;
 
 namespace DrugKitAPI.Core.Services
 {
     public class OpenAIService : IOpenAIService
     {
+        private readonly OpenAISettings _openAISettings;
         private readonly HttpClient _httpClient;
-        private readonly string _apiKey = "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";  // ضع الـ API Key هنا
 
-        public OpenAIService(HttpClient httpClient)
+        public OpenAIService(HttpClient httpClient , IOptions<OpenAISettings> openAISettings)
         {
             _httpClient = httpClient;
-            _httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {_apiKey}");
+            _openAISettings = openAISettings.Value;
+            _httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {_openAISettings.APIKey}");
         }
 
         public async Task<string> GetMedicineRecommendation(string symptoms)
@@ -22,9 +25,9 @@ namespace DrugKitAPI.Core.Services
                 model = "gpt-3.5-turbo",
                 messages = new[]
                 {
-                new { role = "system", content = "أنت شات بوت طبي تقترح الأدوية حسب الأعراض وليك انك تديله ادوية فقط في جملة لا تتعدي 20 كلمة." },
-                new { role = "user", content = symptoms }
-            }
+                    new { role = "system", content = "أنت شات بوت طبي تقترح الأدوية حسب الأعراض وليك انك تديله ادوية فقط في جملة لا تتعدي 20 كلمة." },
+                    new { role = "user", content = symptoms }
+                }
             };
 
             var jsonRequest = JsonSerializer.Serialize(requestBody);

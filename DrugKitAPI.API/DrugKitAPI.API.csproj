@@ -32,8 +32,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Images\DrugImages\" />
     <Folder Include="wwwroot\Images\DonationImages\" />
+    <Folder Include="wwwroot\Images\DrugImages\" />
+    <Folder Include="wwwroot\Images\IdentityImages\" />
   </ItemGroup>
 
 </Project>
