@@ -9,6 +9,50 @@
       "PackagePath": "staticwebassets\\HTML\\UserVerificationCode.html"
     },
     {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\DonationImages\\sg-11134201-22090-avfx99ogs4hve2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\DonationImages\\sg-11134201-22090-avfx99ogs4hve2.jpeg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\IdentityImages\\OIP (1)_20241201011811.jpeg",
+      "PackagePath": "staticwebassets\\Images\\IdentityImages\\OIP (1)_20241201011811.jpeg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\IdentityImages\\OIP (1)_20241201011901.jpeg",
+      "PackagePath": "staticwebassets\\Images\\IdentityImages\\OIP (1)_20241201011901.jpeg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\IdentityImages\\OIP (1)_20241201011935.jpeg",
+      "PackagePath": "staticwebassets\\Images\\IdentityImages\\OIP (1)_20241201011935.jpeg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\IdentityImages\\OIP (1)_20241201011940.jpeg",
+      "PackagePath": "staticwebassets\\Images\\IdentityImages\\OIP (1)_20241201011940.jpeg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\IdentityImages\\OIP_20241201011849.jpeg",
+      "PackagePath": "staticwebassets\\Images\\IdentityImages\\OIP_20241201011849.jpeg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\MedicalReports\\OIP (1)_20241201011901.jpeg",
+      "PackagePath": "staticwebassets\\Images\\MedicalReports\\OIP (1)_20241201011901.jpeg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\MedicalReports\\OIP (1)_20241201011935.jpeg",
+      "PackagePath": "staticwebassets\\Images\\MedicalReports\\OIP (1)_20241201011935.jpeg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\MedicalReports\\OIP (1)_20241201011940.jpeg",
+      "PackagePath": "staticwebassets\\Images\\MedicalReports\\OIP (1)_20241201011940.jpeg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\MedicalReports\\sg-11134201-22090-avfx99ogs4hve2_20241201011811.jpeg",
+      "PackagePath": "staticwebassets\\Images\\MedicalReports\\sg-11134201-22090-avfx99ogs4hve2_20241201011811.jpeg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\MedicalReports\\sg-11134201-22090-avfx99ogs4hve2_20241201011849.jpeg",
+      "PackagePath": "staticwebassets\\Images\\MedicalReports\\sg-11134201-22090-avfx99ogs4hve2_20241201011849.jpeg"
+    },
+    {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.DrugKitAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

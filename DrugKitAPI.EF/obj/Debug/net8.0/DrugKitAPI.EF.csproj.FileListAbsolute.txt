@@ -9,10 +9,10 @@ D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.Ge
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.AssemblyInfoInputs.cache
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.AssemblyInfo.cs
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.csproj.CoreCompileInputs.cache
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.sourcelink.json
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.csproj.CopyComplete
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\refint\DrugKitAPI.EF.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.pdb
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.genruntimeconfig.cache
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\ref\DrugKitAPI.EF.dll
-D:\Graduation Project\DrugKitAPI\DrugKitAPI.EF\obj\Debug\net8.0\DrugKitAPI.EF.sourcelink.json

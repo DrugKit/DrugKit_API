@@ -13,6 +13,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using DrugKitAPI.Core.Models;
 using Microsoft.AspNetCore.Identity;
+using Scalar.AspNetCore;
+using NSwag;
 
 namespace DrugKitAPI.API
 {
@@ -28,6 +30,8 @@ namespace DrugKitAPI.API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -103,13 +107,23 @@ namespace DrugKitAPI.API
                 var factory = x.GetRequiredService<IUrlHelperFactory>();
                 return factory.GetUrlHelper(actionContext);
             });
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddOpenApiDocument();
             var app = builder.Build();
 
+            //if (app.Environment.IsDevelopment())
+            //{
+                app.UseOpenApi(options =>
+                {
+                    options.Path = "/openapi/{documentName}.json";
+                });
+                app.MapScalarApiReference();
+            //}
             // Configure the HTTP request pipeline.
             //if (app.Environment.IsDevelopment())
             //{
-                app.UseSwagger();
-                app.UseSwaggerUI();
+            app.UseSwagger();
+            app.UseSwaggerUI();
             //}
 
             app.UseHttpsRedirection();
