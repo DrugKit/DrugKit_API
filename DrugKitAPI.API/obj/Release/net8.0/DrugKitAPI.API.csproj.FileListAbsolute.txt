@@ -126,9 +126,6 @@ D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win-
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
@@ -174,3 +171,13 @@ D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\NSwag.Generat
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\NSwag.Generation.AspNetCore.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\Scalar.AspNetCore.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\YamlDotNet.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\EPPlus.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\EPPlus.Interfaces.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\EPPlus.System.Drawing.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\bin\Release\net8.0\CsvHelper.dll

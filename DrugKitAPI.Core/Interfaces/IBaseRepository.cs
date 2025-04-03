@@ -16,6 +16,7 @@ namespace DrugKitAPI.Core.Interfaces
         public Task<T> FindTWithExpression<T>(params Expression<Func<T, bool>>[] expressions) where T : class;
         public Task DeleteAllAsync();
         public Task DeleteAllAsyncWithExpression(Expression<Func<T, bool>>? criteria = null);
+        Task AddRangeAsync(IEnumerable<T> entities);
 
     }
 }

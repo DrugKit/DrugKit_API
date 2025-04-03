@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrugKitAPI.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bb8fcea4ea303df1c6630a50f68c7765a614b6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f297ebb9e7258249ded7e5f8923fe011f9e35082")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrugKitAPI.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrugKitAPI.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

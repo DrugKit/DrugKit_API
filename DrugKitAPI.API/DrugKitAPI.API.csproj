@@ -38,8 +38,8 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Images\DonationImages\" />
-    <Folder Include="wwwroot\Images\DrugImages\" />
     <Folder Include="wwwroot\Images\IdentityImages\" />
+    <Folder Include="wwwroot\Images\DrugImages\" />
   </ItemGroup>
 
 </Project>

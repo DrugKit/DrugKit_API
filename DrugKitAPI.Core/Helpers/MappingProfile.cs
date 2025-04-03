@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using DrugKitAPI.Core.DTOs.Auth;
+using DrugKitAPI.Core.DTOs.Category;
 using DrugKitAPI.Core.Models;
 
 namespace DrugKitAPI.Core.Helpers
@@ -21,6 +22,7 @@ namespace DrugKitAPI.Core.Helpers
                 .ForMember(dst => dst.SecurityStamp, opt => opt.Ignore())
                 .ForMember(dst => dst.TwoFactorEnabled, opt => opt.Ignore())
                 .ForSourceMember(src => src.Role, opt => opt.DoNotValidate());
+            CreateMap<CategoryDTO,Category>().ReverseMap();
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using DrugKitAPI.Core.Interfaces;
 using DrugKitAPI.EF.Data;
 using Microsoft.EntityFrameworkCore;
+using Org.BouncyCastle.Asn1;
 using System.Linq.Expressions;
 
 namespace DrugKitAPI.EF.Repositories
@@ -90,6 +91,10 @@ namespace DrugKitAPI.EF.Repositories
         {
             var entities = await _context.Set<T>().ToListAsync();
             _context.Set<T>().RemoveRange(entities);
+        }
+        public async Task AddRangeAsync(IEnumerable<T> entities)
+        {
+            await _context.Set<T>().AddRangeAsync(entities);
         }
     }
 }

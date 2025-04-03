@@ -9,6 +9,38 @@
       "PackagePath": "staticwebassets\\HTML\\UserVerificationCode.html"
     },
     {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\CategoriesImages\\Cold&Flu.svg",
+      "PackagePath": "staticwebassets\\Images\\CategoriesImages\\Cold&Flu.svg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\CategoriesImages\\Diabetes.svg",
+      "PackagePath": "staticwebassets\\Images\\CategoriesImages\\Diabetes.svg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\CategoriesImages\\Eye&Ear.svg",
+      "PackagePath": "staticwebassets\\Images\\CategoriesImages\\Eye&Ear.svg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\CategoriesImages\\Headache.svg",
+      "PackagePath": "staticwebassets\\Images\\CategoriesImages\\Headache.svg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\CategoriesImages\\Heart.svg",
+      "PackagePath": "staticwebassets\\Images\\CategoriesImages\\Heart.svg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\CategoriesImages\\Muscles.svg",
+      "PackagePath": "staticwebassets\\Images\\CategoriesImages\\Muscles.svg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\CategoriesImages\\Pain_Relief.svg",
+      "PackagePath": "staticwebassets\\Images\\CategoriesImages\\Pain_Relief.svg"
+    },
+    {
+      "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\CategoriesImages\\Skin.svg",
+      "PackagePath": "staticwebassets\\Images\\CategoriesImages\\Skin.svg"
+    },
+    {
       "Id": "D:\\Graduation Project\\DrugKitAPI\\DrugKitAPI.API\\wwwroot\\Images\\DonationImages\\sg-11134201-22090-avfx99ogs4hve2.jpeg",
       "PackagePath": "staticwebassets\\Images\\DonationImages\\sg-11134201-22090-avfx99ogs4hve2.jpeg"
     },

@@ -1,4 +1,4 @@
-using DrugKitAPI.Core.Helpers;
+﻿using DrugKitAPI.Core.Helpers;
 using DrugKitAPI.Core.Interfaces;
 using DrugKitAPI.Core.Services;
 using DrugKitAPI.EF;
@@ -14,7 +14,7 @@ using System.Text;
 using DrugKitAPI.Core.Models;
 using Microsoft.AspNetCore.Identity;
 using Scalar.AspNetCore;
-using NSwag;
+using Microsoft.OpenApi.Models;
 
 namespace DrugKitAPI.API
 {
@@ -29,7 +29,60 @@ namespace DrugKitAPI.API
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            //builder.Services.AddEndpointsApiExplorer();
+
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "Your API Title",
+                    Version = "v1",
+                    Description = "API Description"
+                });
+
+                // إذا كنت تحتاج إلى المصادقة
+                c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+                {
+                    Name = "Authorization",
+                    Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+                    Description = "Enter 'Bearer' [space] and then your token"
+                });
+
+                c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    {
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+            });
+            builder.Services.AddOpenApiDocument(configure =>
+            {
+                configure.Title = "Your API Name";
+                configure.Version = "v1";
+                configure.Description = "Your API Description";
+
+                // إذا كنت تحتاج إلى إعداد المصادقة
+                configure.AddSecurity("Bearer", new NSwag.OpenApiSecurityScheme
+                {
+                    Type = NSwag.OpenApiSecuritySchemeType.ApiKey,
+                    Name = "Authorization",
+                    In = NSwag.OpenApiSecurityApiKeyLocation.Header,
+                    Description = "Enter 'Bearer' [space] and then your token"
+                });
+            });
+
+
 
 
 
@@ -53,7 +106,14 @@ namespace DrugKitAPI.API
             builder.Services.Configure<OpenAISettings>(builder.Configuration.GetSection("OpenAISettings"));
             builder.Services.AddHttpClient();
             builder.Services.AddScoped<IOpenAIService, OpenAIService>();
-
+            builder.Services.AddScoped<IDrugService, DrugService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IDrugCsvService, DrugCsvService>();
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AuthenticatedUser", policy =>
+                    policy.RequireAuthenticatedUser());
+            });
             // JWT Authentication
             builder.Services.AddAuthentication(options =>
             {
@@ -93,7 +153,14 @@ namespace DrugKitAPI.API
             });
 
             // Enable CORS
-            builder.Services.AddCors();
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    policy => policy.AllowAnyOrigin()
+                                    .AllowAnyMethod()
+                                    .AllowAnyHeader());
+            });
+
 
             // AutoMapper configuration
             builder.Services.AddAutoMapper(typeof(Program));
@@ -108,28 +175,33 @@ namespace DrugKitAPI.API
                 return factory.GetUrlHelper(actionContext);
             });
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddOpenApiDocument();
+            //builder.Services.AddOpenApiDocument();
             var app = builder.Build();
 
             //if (app.Environment.IsDevelopment())
             //{
-                app.UseOpenApi(options =>
-                {
-                    options.Path = "/openapi/{documentName}.json";
-                });
-                app.MapScalarApiReference();
+            app.UseOpenApi(options =>
+            {
+                options.Path = "/openapi/{documentName}.json";
+            });
+            app.MapScalarApiReference();
             //}
             // Configure the HTTP request pipeline.
             //if (app.Environment.IsDevelopment())
             //{
             app.UseSwagger();
             app.UseSwaggerUI();
-            //}
 
+            //}
+            
             app.UseHttpsRedirection();
+
+            app.UseCors("AllowAll");
+
 
             app.UseAuthorization();
 
+            app.UseStaticFiles();
 
             app.MapControllers();
 

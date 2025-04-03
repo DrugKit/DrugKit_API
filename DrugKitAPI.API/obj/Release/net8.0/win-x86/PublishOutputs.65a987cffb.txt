@@ -9,6 +9,10 @@ D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTm
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Azure.Core.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Azure.Identity.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\BouncyCastle.Cryptography.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\CsvHelper.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\EPPlus.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\EPPlus.Interfaces.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\EPPlus.System.Drawing.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\MailKit.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -22,6 +26,8 @@ D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTm
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.Extensions.Configuration.Json.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
@@ -38,6 +44,7 @@ D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTm
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.IO.RecyclableMemoryStream.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.OpenApi.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.SqlServer.Server.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
@@ -65,6 +72,7 @@ D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTm
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\System.Memory.Data.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\System.Net.WebSockets.WebSocketProtocol.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\System.Runtime.Caching.dll
+D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\System.Security.Cryptography.Pkcs.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\System.Security.Permissions.dll
 D:\Graduation Project\DrugKitAPI\DrugKitAPI.API\obj\Release\net8.0\win-x86\PubTmp\Out\System.Windows.Extensions.dll
